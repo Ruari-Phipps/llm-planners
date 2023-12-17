@@ -1,0 +1,3 @@
+C: There is a red cube, blue cube and green cube
+R: Stack the cubes
+S: Pick up red cube, Failure-wrong object, Place, Pick up red cube, Failure-Northing Grabbed, Pick up red cube, place on blue cube, Pick up green cube, Place on blue cube, Failure-wrong location, Pick up green cube, Place on blue cube, Done

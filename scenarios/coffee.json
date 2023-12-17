@@ -1,0 +1,18 @@
+{
+    "facts": [
+        "bin = mug",
+        "black cube = coffee",
+        "white cube = sugar",
+        "green cube = tea",
+        "blue box = milk"
+    ],
+    "objects": [
+        "white bin",
+        "large black cube",
+        "small white cube",
+        "random bin",
+        "green cube",
+        "blue box"
+    ],
+    "additional example": "C: There is a red bin, black cube and blue box\nR: Make a coffee with milk\nS: Pick up black cube, place in red bin, pick up blue box, place in red bin, Done"
+}

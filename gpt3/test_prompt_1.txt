@@ -1,0 +1,35 @@
+Possible commands: Pick up, Place on top of, Place next to, Place in, Can't, Done
+
+Only place in bin
+Pick up object then Place object
+
+All objects, bins, plates used must be in C
+
+Pick up any bin = Can't
+Pick up item in any bin = Can't
+Place on any sphere = Can't
+Place on any box = Can't 
+Place on any cylinder = Can't
+If X placed on Y, can't pick up Y
+
+C: There is a green cylinder, grey plate and a yellow cube
+R: Place the green cylinder on the grey plate?
+S: Pick up green cylinder, Place on grey plate, Done
+
+C: There is a blue cube, grey slice and a yellow palte
+R: Place the cube nex to the grey slice?
+S: Pick up green cube, Place next grey slice, Done
+
+C: There is a green sphere and yellow box
+R: Place blue sphere on yellow plate
+S: Can't
+
+C: There is a red plate and a blue bin
+R: Put red plate next to bin
+S: Can't
+R: Put blue bin on plate
+S: Can't
+
+C: There is a green sphere and yellow cylinder
+R: Place green sphere on the cylinder
+S: Can't

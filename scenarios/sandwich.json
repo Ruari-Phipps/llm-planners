@@ -1,0 +1,17 @@
+{
+    "facts": [
+        "white slice = bread",
+        "red slice = ham",
+        "green slice = lettuce",
+        "yellow slice = cheese"
+    ],
+    "objects": [
+        "random plate",
+        "large white slice",
+        "large white slice",
+        "large yellow slice",
+        "large red slice",
+        "large green slice"
+    ],
+    "additional example": "C: There is a white slice, white slice, yellow slice, \nR: Make a cheese sandwich\nS: Pick up yellow slice, place on white slice, pick up white slice, place on yellow slice" 
+}

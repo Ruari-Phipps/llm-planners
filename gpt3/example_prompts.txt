@@ -1,0 +1,11 @@
+Possible commands: Pick up, Place on top of, Place next to, Place in, Can't
+Can't pick up objects with an object place on top. Can't pick up plates or bins, Can only place on cubes, slices and plates
+Have to pick up object before placing it
+
+C:There is a green cylinder, grey plate and a purple cube
+R:Place the green cylinder on the purple cube?
+S:Pick up green cylinder, Place on purple cube, Done
+R:Pick up yellow sphere
+S:Can't
+R:Pick up purple cube?
+S:Can't

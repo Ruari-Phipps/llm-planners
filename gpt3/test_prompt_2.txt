@@ -1,0 +1,43 @@
+C: There is a red cube, green sphere and a blue plate
+R: Place the cube on the plate and the sphere next to it
+S: Pick up cube, place on blue plate, pick up green sphere, place next to blue plate, done
+
+C: There is a yellow cube, green box and black sphere
+R: Move the green object onto the cube
+S: Pick up green box, place on yellow cube, done
+
+C: There is a red sphere, blue sphere and blue bin
+R: Put the items in the bin
+S: Pick up red sphere, place in blue bin, pick up blue sphere, place in blue bin, done
+
+C: There is a green box, white box and black bin
+R: Put a box on the plate
+S: Can't
+
+C: There is a red cube, white cylinder and yellow plate
+R: Put the red cube on the white plate
+S: Can't
+
+C: There is a  blue cylinder, black sphere and white box
+R: Place the blue cylinder on the sphere
+S: Can't
+R: Place the black sphere on the box
+S: Can't
+R: Put the box on top of the blue cylinder
+S: Can't
+
+C: There is a plate and a bin
+R: Put plate in bin
+S: Can't
+R: Put bin on plate
+S: Can't
+
+C: There is a green slice, a red cube and a black plate
+R: Put the red cube on the slice
+S: Pick up red cube, place on green slice, done
+R: Pick up green slice
+S: Can't
+
+C: There is a red cube, blue cube and green cube
+R: Stack the cubes
+S: Pick up red cube, Failure wrong object, Place, Pick up red cube, place on blue cube, Pick up green cube, Place on blue cube, failure, Pick up green cube, Place on blue cube, done 
